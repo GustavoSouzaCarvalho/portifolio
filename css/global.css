@@ -40,20 +40,17 @@ body {
 }
 
 .bg {
-  background: 
-    linear-gradient(
+  background: linear-gradient(
       to right,
-      #29292E 5%,
+      var(--gray-300) 5%,
       transparent 5%,
       transparent 95%,
-      #29292E 95%
+      var(--gray-300) 95%
     ),
     url('../assets/images/background.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 100vh;
-  padding: var(--spacing-xl) 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
 }
 
 .bg > img {
