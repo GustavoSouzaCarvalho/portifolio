@@ -1,0 +1,48 @@
+.technologies {
+  padding: var(--spacing-xl) 0;
+}
+
+.technologies h2 {
+  font-size: 1.75rem;
+  color: var(--gray-200);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-xl);
+  list-style: none;
+  padding: 0;
+  margin-top: var(--spacing-lg);
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-xs);
+  min-width: 100px;
+  transition: transform 0.3s ease;
+  border: 1px solid var(--gray-300);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.tech-item:hover {
+  transform: translateY(-5px);
+}
+
+.tech-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.tech-item span {
+  font-size: 16px;
+  color: var(--gray-500);
+  font-family: 'Maven Pro', sans-serif;
+}

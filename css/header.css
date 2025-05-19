@@ -1,0 +1,39 @@
+.perfil {
+    width: 112px;
+    height: 112px;
+}
+
+.code {
+    width: 32px;
+    height: 32px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  max-width: 800px;
+}
+
+.apresentacao {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  color: var(--gray-500);
+}
+
+.header-content .apresentacao span {
+  color: var(--red);
+}
+
+h1 {
+  font-family: 'Asap', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--gray-600);
+}
+
+.descricao {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+  color: var(--gray-400);
+}
