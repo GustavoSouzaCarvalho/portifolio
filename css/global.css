@@ -48,6 +48,11 @@ body {
       var(--gray-300) 95%
     ),
     url('../assets/images/background.png');
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -57,4 +62,5 @@ body {
   display: block;
   margin: var(--spacing-xl) auto 0;
   width: 40px;
+  
 }

@@ -1,11 +1,8 @@
 .perfil {
     width: 112px;
     height: 112px;
-}
-
-.code {
-    width: 32px;
-    height: 32px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .header-content {
@@ -14,7 +11,7 @@
   align-items: center;
   text-align: center;
   gap: var(--spacing-sm);
-  max-width: 800px;
+  max-width: 65rem;
   margin: 0 auto;
 }
 
@@ -22,6 +19,7 @@
   font-family: 'Inconsolata', monospace;
   font-size: 20px;
   color: var(--gray-500);
+  margin-top: 3rem;
 }
 
 .header-content .apresentacao span {
@@ -39,4 +37,19 @@ h1 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 14px;
   color: var(--gray-400);
+  margin-top: 0.3rem;
+  margin-left: 175px;
+  margin-right: 175px;
 }
+
+#seta{
+  width: 25px;
+  height: 25px;
+
+}
+
+.header-content .apresentacao{
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
