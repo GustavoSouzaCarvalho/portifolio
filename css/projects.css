@@ -20,36 +20,50 @@
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--spacing-lg);
+  grid-template-columns: repeat(auto-fit, 330px);
+  gap: 24px;
   padding: 0 var(--spacing-md);
+  justify-content: center;
 }
 
 .project-card {
   background: var(--gray-300);
   border-radius: 12px;
-  padding: var(--spacing-lg);
   transition: transform 0.3s ease;
-  min-height: 200px;
+  width: 330px;
+  height: 280px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  padding-bottom: 12px;
+  position: relative;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
 }
 
+.project-card img {
+  width: 306px;
+  height: 156px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+  margin: 12px;
+  display: block;
+}
+
 .project-card h3 {
   color: var(--gray-600);
   font-family: 'Asap', sans-serif;
-  font-size: 1.5rem;
+  font-size: 16px;
   margin-bottom: var(--spacing-sm);
+  padding: 0 12px;
 }
 
 .project-card p {
-  color: var(--gray-400);
+  color: var(--gray-500);
   font-family: 'Maven Pro', sans-serif;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 14px;
+  text-align: justify;
+  padding: 0 12px;
 }
