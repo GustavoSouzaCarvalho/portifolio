@@ -25,7 +25,15 @@
   --spacing-xl: 3rem;
 }
 
-body {
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.bg {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--gray-100);
@@ -41,23 +49,34 @@ body {
   background-attachment: fixed;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 var(--spacing-md);
-}
-
-.bg {
-  background: url('../assets/images/imagem_fundo.png');
+.fundo_apresentacao {
+  background: 
+    linear-gradient(
+      to right,
+      var(--gray-300) 5%,
+      transparent 5%,
+      transparent 95%,
+      var(--gray-300) 95%
+    ),
+    url('../assets/images/background.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding-bottom: var(--spacing-xl);
+  position: relative;
+  z-index: 1;
+}
+
+
+.technologies {
+  margin-top: -2rem;
+  padding-top: 4rem;
+  position: relative;
+  z-index: 2;
+}
+
+.seta {
+  margin: 2rem auto;
+  display: block;
 }
 
 html, body {
