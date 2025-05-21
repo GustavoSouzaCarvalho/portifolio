@@ -1,0 +1,95 @@
+.contact-bg {
+  background: 
+    linear-gradient(
+      to right,
+      var(--gray-300) 5%,
+      transparent 5%,
+      transparent 95%,
+      var(--gray-300) 95%
+    ),
+    url('../assets/images/background.png');
+  background-size: cover;
+  background-position: center;
+  padding: var(--spacing-xl) 0;
+  color: var(--gray-600);
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-content h2 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  color: var(--purple);
+  margin-bottom: var(--spacing-sm);
+}
+
+.subtitulo {
+  font-family: 'Asap', sans-serif;
+  color: var(--gray-600);
+  font-size: 24px;
+  margin-bottom: var(--spacing-xs);
+}
+
+.contact-text {
+  font-family: 'Maven Pro', sans-serif;
+  margin-bottom: 48px;
+  color: var(--gray-500);
+  font-size: 16px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0 24px;
+  background: var(--gray-300);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  width: 400px;
+  height: 68px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.social-link-content {  
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-link img {
+  width: 28px;
+  height: 28px;
+}
+
+.social-link span {
+  font-family: 'Maven Pro', sans-serif;
+  color: var(--gray-600);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.seta {
+  width: 20px;
+  height: 20px;
+  margin-right: 0%;
+  transition: transform 0.3s ease;
+}
