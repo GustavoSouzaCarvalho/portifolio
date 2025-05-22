@@ -26,10 +26,12 @@
   background: var(--gray-300);
   border-radius: 8px;
   padding: 0;
-  min-height: 56px;
+  min-height: 45px;
   transition: all 0.3s ease;
   overflow: hidden;
   border-radius: 999px;
+  font-family: 'Maven Pro', sans-serif;
+  margin-top: -1rem;
 }
 
 .tech-item:hover {

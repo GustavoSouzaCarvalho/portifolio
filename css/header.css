@@ -2,7 +2,7 @@
     width: 112px;
     height: 112px;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .header-content {
@@ -19,7 +19,6 @@
   font-family: 'Inconsolata', monospace;
   font-size: 20px;
   color: var(--gray-500);
-  margin-top: 3rem;
 }
 
 .header-content .apresentacao span {
@@ -31,6 +30,8 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   color: var(--gray-600);
+  margin-top: -2rem;
+  margin-bottom:0px;
 }
 
 .descricao {
@@ -40,14 +41,15 @@ h1 {
   margin-top: 0.3rem;
   margin-left: 175px;
   margin-right: 175px;
+  margin-bottom: -1rem;
 }
 
 #seta{
   width: 25px;
   height: 25px;
-  margin-left: 750px;
-  margin-right: 750px;
-  margin-top: 5.8rem;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-bottom: -5rem;
 
 }
 
@@ -55,4 +57,3 @@ h1 {
   margin-top: 10px;
   margin-bottom: 8px;
 }
-

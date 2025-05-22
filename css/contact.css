@@ -87,9 +87,27 @@
   font-size: 16px;
 }
 
-.seta {
+.social-link .seta {
   width: 20px;
   height: 20px;
   margin-right: 0%;
   transition: transform 0.3s ease;
+}
+
+.social-link {
+  border: 2px solid transparent; 
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-color: var(--blue); 
+}
+
+.social-link img:first-child {
+  transition: filter 0.3s ease;
+}
+
+.social-link:hover img:first-child {
+  filter: brightness(0) saturate(100%) invert(29%) sepia(95%) saturate(745%) hue-rotate(180deg) brightness(91%) contrast(92%);
 }
