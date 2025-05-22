@@ -1,13 +1,5 @@
 .contact-bg {
-  background: 
-    linear-gradient(
-      to right,
-      var(--gray-300) 5%,
-      transparent 5%,
-      transparent 95%,
-      var(--gray-300) 95%
-    ),
-    url('../assets/images/background.png');
+  background:url('../assets/images/background.png');
   background-size: cover;
   background-position: center;
   padding: var(--spacing-xl) 0;

@@ -2,14 +2,6 @@
   padding: 5rem 0;
   background-color: var(--gray-100);
   padding: var(--spacing-xl) 0;
-    background: 
-    linear-gradient(
-      to right,
-      var(--gray-300) 5%,
-      transparent 5%,
-      transparent 95%,
-      var(--gray-300) 95%
-    ),
 }
 
 .services p {
