@@ -49,7 +49,7 @@
 }
 
 .fundo_apresentacao {
-  background: url('../assets/images/background.png');
+  background:url('../assets/images/background.png');
   background-size: cover;
   background-position: center;
   padding-bottom: var(--spacing-xl);
